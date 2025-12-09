@@ -1124,32 +1124,26 @@
           </div>
 
           <div class="tabs-scroll">
-            <button class="tab active" data-cat="all">All</button>
-            <button class="tab" data-cat="Cold Drinks">Cold Drinks</button>
-            <button class="tab" data-cat="cigaret">Cigaret</button>
-            <button class="tab" data-cat="Veg Starters">Veg Starters</button>
-            <button class="tab" data-cat="Chicken Starters">Chicken Starters</button>
-            <button class="tab" data-cat="Egg Items">Egg Items</button>
-            <button class="tab" data-cat="Veg Curry">Veg Curry</button>
-            <button class="tab" data-cat="Soups">Soups</button>
-            <button class="tab" data-cat="Breads">Breads</button>
-            <button class="tab" data-cat="Dal">Dal</button>
-            <button class="tab" data-cat="Rice">Rice</button>
-            <button class="tab" data-cat="Veg">Veg</button>
-            <button class="tab" data-cat="Paneer">Paneer</button>
-            <button class="tab" data-cat="Special">Special</button>
-            <button class="tab" data-cat="Chinese Rice">Chinese Rice</button>
-            <button class="tab" data-cat="Extras">Extras</button>
-            <button class="tab" data-cat="Special Curry">Special Curry</button>
-            <button class="tab" data-cat="Fish">Fish</button>
-            <button class="tab" data-cat="Mutton">Mutton</button>
-            <button class="tab" data-cat="Rice Plate">Rice Plate</button>
-            <button class="tab" data-cat="Tandoor">Tandoor</button>
-            <button class="tab" data-cat="Veg Biryani">Veg Biryani</button>
-            <button class="tab" data-cat="Chicken Biryani">Chicken Biryani</button>
-            <button class="tab" data-cat="Mutton Biryani">Mutton Biryani</button>
-            <button class="tab" data-cat="Chinese Snacks">Chinese Snacks</button>
-
+<button class="tab active" data-cat="all">All</button>
+<button class="tab" data-cat="Cold Drinks">Cold Drinks</button>
+<button class="tab" data-cat="Cigarettes">Cigarettes</button>
+<button class="tab" data-cat="Veg Starter">Veg Starter</button>
+<button class="tab" data-cat="Non-Veg Starter">Non-Veg Starter</button>
+<button class="tab" data-cat="Fish Starter">Fish Starter</button>
+<button class="tab" data-cat="Soup">Soup</button>
+<button class="tab" data-cat="Roti / Naan">Roti / Naan</button>
+<button class="tab" data-cat="Veg Dishes">Veg Dishes</button>
+<button class="tab" data-cat="Paneer Dishes">Paneer Dishes</button>
+<button class="tab" data-cat="Special">Special</button>
+<button class="tab" data-cat="Handi Special">Handi Special</button>
+<button class="tab" data-cat="Egg Special">Egg Special</button>
+<button class="tab" data-cat="Chicken/Mutton Dishes">Chicken/Mutton Dishes</button>
+<button class="tab" data-cat="Chicken/Mutton Handi">Chicken/Mutton Handi</button>
+<button class="tab" data-cat="Fish Special">Fish Special</button>
+<button class="tab" data-cat="Rice / Pulav">Rice / Pulav</button>
+<button class="tab" data-cat="Chinese Rice">Chinese Rice</button>
+<button class="tab" data-cat="Biryani">Biryani</button>
+<button class="tab" data-cat="Charges">Charges</button>
 
 
 
@@ -1289,178 +1283,196 @@
   <script>
     // Menu Data
     const data = [
-      { "id": 1, "cat": "Cold Drinks", "name": "मिनरल वॉटर / Mineral Water", "price": "₹20", "desc": "Chilled mineral water bottle", "tags": ["Veg"], "img":"img/water.jpeg"},
-      { "id": 2, "cat": "Cold Drinks", "name": "सोडा / Soda", "price": "₹20", "desc": "Plain soda", "tags": ["Veg"], "img": "img/soda.jpeg" },
-      { "id": 3, "cat": "Cold Drinks", "name": "सोडा मोठा / Large Soda", "price": "₹40", "desc": "Soft drink Soda", "tags": ["Veg"], "img": "img/Soda m.jpeg" },
-      { "id": 4, "cat": "Cold Drinks", "name": "कोक 250 मि.ली. / Coke 250ml", "price": "₹25", "desc": "Coca Cola 250ml", "tags": ["Veg"], "img": "img/coke-250.jpeg" },
-      { "id": 5, "cat": "Cold Drinks", "name": "कोक 750 मि.ली. / Coke 750ml", "price": "₹50", "desc": "Coca Cola 750ml", "tags": ["Veg"], "img": "img/coke-750.jpeg" },
-      { "id": 6, "cat": "Cigarette", "name": "गोल्ड छोटी / Gold Flake Chhoti", "price": "₹15", "desc": "Plain toasted bread", "tags": ["Veg"], "img": "img/Gold Chhoti.jpeg" },
-      { "id": 7, "cat": "Cigarette", "name": "गोल्ड बटन / Gold Flake Buttan", "price": "₹15", "desc": "Toast with butter", "tags": ["Veg"], "img": "img/Gold Butten.jpeg" },
-      { "id": 8, "cat": "Cigarette", "name": "लाईट सिगरेट / Light Cigarette", "price": "₹20", "desc": "Light slice", "tags": ["Veg"], "img": "img/Light.jpeg" },
-      { "id": 9, "cat": "Cigarette", "name": "गरम / Garam", "price": "₹20", "desc": "Garam serving", "tags": ["Veg"], "img": "img/Garam.jpeg" },
-      { "id": 10, "cat": "Cigarette", "name": "क्लासिक / Classic", "price": "₹20", "desc": "Classic", "tags": ["Veg"], "img": "img/Classic.jpeg" },
-      { "id": 11, "cat": "Veg Starters", "name": "मसाला पापड / Masala Papad", "price": "₹25", "desc": "Papad topped with onion & masala", "tags": ["Veg"], "img": "img/masala-papad.jpeg" },
-      { "id": 12, "cat": "Veg Starters", "name": "फ्राय पापड / Fry Papad", "price": "₹20", "desc": "Crispy fried papad", "tags": ["Veg"], "img": "img/fry-papad.jpeg" },
-      { "id": 13, "cat": "Veg Starters", "name": "स्टार पापड / Star Papad", "price": "₹20", "desc": "Special papad", "tags": ["Veg"], "img": "img/star-papad.jpeg" },
-      { "id": 14, "cat": "Veg Starters", "name": "ड्राय फ्रुट पापड / Dry Fruit Papad", "price": "₹25", "desc": "Papad with dry fruits", "tags": ["Veg"], "img": "img/dryfruit-papad.jpeg" },
-      { "id": 15, "cat": "Veg Starters", "name": "टोमॅटो/फ्रुट चाट / Tomato/Fruit Chaat", "price": "₹20", "desc": "Tomato or fruit chaat", "tags": ["Veg"], "img": "img/Tomato Fruit Chaat.jpeg" },
-      { "id": 16, "cat": "Veg Starters", "name": "सलाड / Salad", "price": "₹10", "desc": "Salad plate", "tags": ["Veg"], "img": "img/salad.jpeg" },
-      { "id": 17, "cat": "Veg Starters", "name": "व्हेज सूप / Veg Soup", "price": "₹80", "desc": "Vegetable soup", "tags": ["Veg"], "img": "img/veg-soup.jpeg" },
-      { "id": 18, "cat": "Veg Starters", "name": "चायना टोस्ट / China Toast", "price": "₹90", "desc": "Chinese style toast", "tags": ["Veg"], "img": "img/china-toast.jpeg" },
-      { "id": 19, "cat": "Veg Starters", "name": "ग्रीन पकोडा / Green Pakoda", "price": "₹80", "desc": "Green vegetable pakoda", "tags": ["Veg"], "img": "img/pakoda.jpeg" },
-      { "id": 20, "cat": "Veg Starters", "name": "मशरूम पकोडा / Mushroom Pakoda", "price": "₹50", "desc": "Mushroom pakoda", "tags": ["Veg"], "img": "img/mushroom-pakoda.jpeg" },
-      { "id": 21, "cat": "Veg Starters", "name": "मटर स्टार्टर / Matar Starter", "price": "₹80", "desc": "Green peas preparation", "tags": ["Veg"], "img": "img/matar.jpeg" },
-      { "id": 22, "cat": "Veg Starters", "name": "चुली स्टार्टर / Chuli Starter", "price": "₹80", "desc": "Chuli starter", "tags": ["Veg"], "img": "img/chuli.jpeg" },
-      { "id": 23, "cat": "Veg Starters", "name": "मटर फाट / Matar Phaṭ", "price": "₹90", "desc": "Custom veg starter", "tags": ["Veg"], "img": "img/matar-fhat.jpeg" },
-      { "id": 24, "cat": "Veg Starters", "name": "पनीर चिली / Chilli Paneer", "price": "₹100", "desc": "Spicy chilli paneer", "tags": ["Veg"], "img": "img/chilli-paneer.jpeg" },
-      { "id": 25, "cat": "Veg Starters", "name": "पनीर टिक्का / Paneer Tikka", "price": "₹120", "desc": "Grilled paneer tikka", "tags": ["Veg"], "img": "img/paneer-tikka.jpeg" },
-      { "id": 26, "cat": "Veg Starters", "name": "गार्लिक फ्राय / Garlic Fry", "price": "₹80", "desc": "Garlic fry", "tags": ["Veg"], "img": "img/garlic-fry.jpeg" },
-      { "id": 27, "cat": "Veg Starters", "name": "प्लेन जीरॉ / Plain Starter", "price": "₹140", "desc": "Plain starter dish", "tags": ["Veg"], "img": "img/plain.jpeg" },
-      { "id": 28, "cat": "Veg Starters", "name": "चायना क्रिस्पी / China Crispy", "price": "₹140", "desc": "Chinese crispy veg", "tags": ["Veg"], "img": "img/china-crispy.jpeg" },
-      { "id": 29, "cat": "Veg Starters", "name": "चायना ज्वालामुखी / China Jwalamukhi", "price": "₹130", "desc": "Very spicy chinese veg", "tags": ["Veg"], "img": "img/jwalamukhi.jpeg" },
-      { "id": 30, "cat": "Veg Starters", "name": "चायना भाजी प्लेट / China Bhaji Plate", "price": "₹140", "desc": "Chinese mixed bhaji", "tags": ["Veg"], "img": "img/china-bhaji.jpeg" },
-      { "id": 31, "cat": "Chicken Starters", "name": "चिकन फ्राय / Chicken Fry", "price": "₹120", "desc": "Fried chicken", "tags": ["Non-Veg"], "img": "img/chicken-fry.jpeg" },
-      { "id": 32, "cat": "Chicken Starters", "name": "चिकन कटकट प्लेट / Chicken Kaṭkaṭ Plate", "price": "₹120", "desc": "Crispy chicken platter", "tags": ["Non-Veg"], "img": "img/chicken-katkat.jpeg" },
-      { "id": 33, "cat": "Chicken Starters", "name": "चिकन लेमन सूप / Chicken Lemon Soup", "price": "₹200", "desc": "Chicken lemon soup", "tags": ["Non-Veg"], "img": "img/lemon-soup.jpeg" },
-      { "id": 34, "cat": "Chicken Starters", "name": "चिकन कडकट पुलाव / Chicken Kaḍkaḍ Pulao", "price": "₹400", "desc": "Popular chicken pulao", "tags": ["Non-Veg"], "img": "img/chicken-pulao.jpeg" },
-      { "id": 35, "cat": "Chicken Starters", "name": "चिकन तंदुरी हाफ / Chicken Tandoori Half", "price": "₹250", "desc": "Half tandoori chicken", "tags": ["Non-Veg"], "img": "img/tandoori-half.jpeg" },
-      { "id": 36, "cat": "Chicken Starters", "name": "चिकन तंदुरी फुल / Chicken Tandoori Full", "price": "₹500", "desc": "Full tandoori chicken", "tags": ["Non-Veg"], "img": "img/tandoori-full.jpeg" },
-      { "id": 37, "cat": "Chicken Starters", "name": "चिकन टिक्का / Chicken Tikka", "price": "₹200", "desc": "Chicken tikka", "tags": ["Non-Veg"], "img": "img/chicken-tikka.jpeg" },
-      { "id": 38, "cat": "Chicken Starters", "name": "चिकन लोलिपॉप / Chicken Lollipop", "price": "₹140", "desc": "Chicken lollipop", "tags": ["Non-Veg"], "img": "img/lollipop.jpeg" },
-      { "id": 39, "cat": "Chicken Starters", "name": "चिकन मन्चूरियन / Chicken Manchurian", "price": "₹150", "desc": "Chicken manchurian", "tags": ["Non-Veg"], "img": "img/chicken-manchurian.jpeg" },
-      { "id": 40, "cat": "Egg Items", "name": "अंडा फ्राय / Egg Fry", "price": "₹150", "desc": "Fried egg", "tags": ["Non-Veg"], "img": "img/egg-fry.jpeg" },
-      { "id": 41, "cat": "Egg Items", "name": "अंडा बॉईल प्लेट / Boiled Egg Plate", "price": "₹20", "desc": "Boiled egg plate", "tags": ["Non-Veg"], "img": "img/boiled-egg.jpeg" },
-      { "id": 42, "cat": "Egg Items", "name": "अंडा हाफ फ्राय / Egg Half Fry", "price": "₹30", "desc": "Half fry egg", "tags": ["Non-Veg"], "img": "img/half-fry.jpeg" },
-      { "id": 43, "cat": "Egg Items", "name": "अंडा आमलेट / Egg Omelette", "price": "₹40", "desc": "Egg omelette", "tags": ["Non-Veg"], "img": "img/omelette.jpeg" },
-      { "id": 44, "cat": "Egg Items", "name": "अंडा भुर्जी / Egg Bhurji", "price": "₹50", "desc": "Egg bhurji", "tags": ["Non-Veg"], "img": "img/bhurji.jpeg" },
-      { "id": 45, "cat": "Veg Curry", "name": "मटर पनीर / Matar Paneer", "price": "₹150", "desc": "Spicy vegetarian curry", "tags": ["Veg"], "img": "img/veg-curry.jpeg" },
-      { "id": 46, "cat": "Veg Curry", "name": "व्हेज मसाला भाजी / Veg Masala Bhaji", "price": "₹150", "desc": "Masala style vegetable curry", "tags": ["Veg"], "img": "img/veg-masala.jpeg" },
-      { "id": 47, "cat": "Veg Curry", "name": "व्हेज फार्म भाजी / Veg Farm Bhaji", "price": "₹160", "desc": "Special veg curry", "tags": ["Veg"], "img": "img/special-veg.jpeg" },
-      { "id": 48, "cat": "Soups", "name": "मटन सूप / Mutton Soup", "price": "₹70", "desc": "Mutton soup", "tags": ["Non-Veg"], "img": "img/mutton-soup.jpeg" },
-      { "id": 49, "cat": "Soups", "name": "चिकन सूप / Chicken Soup", "price": "₹50", "desc": "Chicken soup", "tags": ["Non-Veg"], "img": "img/chicken-soup.jpeg" },
-      { "id": 50, "cat": "Soups", "name": "टोमॅटो सूप / Tomato Soup", "price": "₹40", "desc": "Tomato soup", "tags": ["Veg"], "img": "img/tomato-soup.jpeg" },
-      { "id": 51, "cat": "Soups", "name": "व्हेज मंचाऊ सूप / Veg Manchow Soup", "price": "₹80", "desc": "Veg manchow soup", "tags": ["Veg"], "img": "img/manchow-veg.jpeg" },
-      { "id": 52, "cat": "Soups", "name": "सिंगापूर सूप / Singapore Soup", "price": "₹90", "desc": "Singapore style soup", "tags": ["Veg"], "img": "img/singapore-soup.jpeg" },
-      { "id": 53, "cat": "Soups", "name": "हॉट अँड सॉर सूप / Hot & Sour Soup", "price": "₹90", "desc": "Hot & Sour soup", "tags": ["Veg"], "img": "img/hot-sour.jpeg" },
-      { "id": 54, "cat": "Soups", "name": "स्वीट कॉर्न सूप / Sweet Corn Soup", "price": "₹70", "desc": "Sweet corn soup", "tags": ["Veg"], "img": "img/sweetcorn-soup.jpeg" },
-      { "id": 55, "cat": "Breads", "name": "रोटी / Roti", "price": "₹10", "desc": "Plain roti", "tags": ["Veg"], "img": "img/roti.jpeg" },
-      { "id": 56, "cat": "Breads", "name": "बटर रोटी / Butter Roti", "price": "₹15", "desc": "Roti with butter", "tags": ["Veg"], "img": "img/butter-roti.jpeg" },
-      { "id": 57, "cat": "Breads", "name": "बटर पराठा / Butter Paratha", "price": "₹20", "desc": "Buttered paratha", "tags": ["Veg"], "img": "img/butter-paratha.jpeg" },
-      { "id": 58, "cat": "Breads", "name": "चपाती / Chapati", "price": "₹40", "desc": "Soft chapati", "tags": ["Veg"], "img": "img/chapati.jpeg" },
-      { "id": 59, "cat": "Breads", "name": "बटर नान / Butter Naan", "price": "₹30", "desc": "Butter naan", "tags": ["Veg"], "img": "img/butter-naan.jpeg" },
-      { "id": 60, "cat": "Breads", "name": "लसूण नान / Garlic Naan", "price": "₹15", "desc": "Garlic naan", "tags": ["Veg"], "img": "img/garlic-naan.jpeg" },
-      { "id": 61, "cat": "Breads", "name": "जीरा नान / Jeera Naan", "price": "₹15", "desc": "Jeera naan", "tags": ["Veg"], "img": "img/jeera-naan.jpeg" },
-      { "id": 62, "cat": "Breads", "name": "कुलचा नान / Kulcha Naan", "price": "₹30", "desc": "Kulcha naan", "tags": ["Veg"], "img": "img/kulcha.jpeg" },
-      { "id": 63, "cat": "Breads", "name": "लच्छा पराठा / Lachha Paratha", "price": "₹30", "desc": "Layered paratha", "tags": ["Veg"], "img": "img/laccha.jpeg" },
-      { "id": 64, "cat": "Breads", "name": "पनीर पराठा / Paneer Paratha", "price": "₹60", "desc": "Paneer stuffed paratha", "tags": ["Veg"], "img": "img/paneer-paratha.jpeg" },
-      { "id": 65, "cat": "Dal & Gravy", "name": "दाल फ्राय / Dal Fry", "price": "₹90", "desc": "Dal fry", "tags": ["Veg"], "img": "img/dal-fry.jpeg" },
-      { "id": 66, "cat": "Dal & Gravy", "name": "दाल तडका / Dal Tadka", "price": "₹90", "desc": "Dal tadka", "tags": ["Veg"], "img": "img/dal-tadka.jpeg" },
-      { "id": 67, "cat": "Dal & Gravy", "name": "वरण आमटी / Varaṇ Amṭi", "price": "₹100", "desc": "Maharashtrian varan amti", "tags": ["Veg"], "img": "img/varan.jpeg" },
-      { "id": 68, "cat": "Dal & Gravy", "name": "दाल मेथी / Dal Methi", "price": "₹80", "desc": "Methi dal", "tags": ["Veg"], "img": "img/methi-dal.jpeg" },
-      { "id": 69, "cat": "Dal & Gravy", "name": "चणा पालक / Chana Palak", "price": "₹70", "desc": "Chana palak", "tags": ["Veg"], "img": "img/chana-palak.jpeg" },
-      { "id": 70, "cat": "Dal & Gravy", "name": "आलू पालक / Aloo Palak", "price": "₹80", "desc": "Aloo palak", "tags": ["Veg"], "img": "img/aloo-palak.jpeg" },
-      { "id": 71, "cat": "Dal & Gravy", "name": "मेथी मसाला / Methi Masala", "price": "₹80", "desc": "Methi masala", "tags": ["Veg"], "img": "img/methi-masala.jpeg" },
-      { "id": 72, "cat": "Dal & Gravy", "name": "लसण भाजी / Lasun Bhaji (Garlic Curry)", "price": "₹90", "desc": "Garlic curry", "tags": ["Veg"], "img": "img/lasun-bhaji.jpeg" },
-      { "id": 73, "cat": "Dal & Gravy", "name": "वांगी भरता / Baingan Bharta", "price": "₹90", "desc": "Baingan bharta", "tags": ["Veg"], "img": "img/bharta.jpeg" },
-      { "id": 74, "cat": "Dal & Gravy", "name": "पनीर मसाला / Paneer Masala", "price": "₹90", "desc": "Paneer masala", "tags": ["Veg"], "img": "img/paneer-masala.jpeg" },
-      { "id": 75, "cat": "Dal & Gravy", "name": "पालक मसाला / Palak Masala", "price": "₹90", "desc": "Palak masala", "tags": ["Veg"], "img": "img/palak.jpeg" },
-      { "id": 76, "cat": "Dal & Gravy", "name": "साया मसाला / Soya Masala", "price": "₹90", "desc": "Veg curry", "tags": ["Veg"], "img": "img/saya.jpeg" },
-      { "id": 77, "cat": "Dal & Gravy", "name": "भेंडी मसाला / Bhindi Masala", "price": "₹80", "desc": "Bhendi masala", "tags": ["Veg"], "img": "img/bhendi.jpeg" },
-      { "id": 78, "cat": "Dal & Gravy", "name": "भेंडी फ्राय / Bhindi Fry", "price": "₹90", "desc": "Fry bhindi", "tags": ["Veg"], "img": "img/bhindi-fry.jpeg" },
-      { "id": 79, "cat": "Dal & Gravy", "name": "कोबी कीमा / Cabbage Keema", "price": "₹140", "desc": "Veg keema style curry", "tags": ["Veg"], "img": "img/kobi-keema.jpeg" },
-      { "id": 80, "cat": "Dal & Gravy", "name": "आलू मटर / Aloo Matar", "price": "₹90", "desc": "Aloo matar", "tags": ["Veg"], "img": "img/aloo-matar.jpeg" },
-      { "id": 81, "cat": "Dal & Gravy", "name": "मिक्स भाजी / Mix Veg Bhaji", "price": "₹110", "desc": "Mix vegetable", "tags": ["Veg"], "img": "img/mix-veg.jpeg" },
-      { "id": 82, "cat": "Dal & Gravy", "name": "चना मसाला / Chana Masala", "price": "₹120", "desc": "Chana masala", "tags": ["Veg"], "img": "img/chana-masala.jpeg" },
-      { "id": 83, "cat": "Dal & Gravy", "name": "जैन मसाला / Jain Masala", "price": "₹120", "desc": "Jain style curry", "tags": ["Veg"], "img": "img/jain.jpeg" },
-      { "id": 84, "cat": "Dal & Gravy", "name": "काजू करी / Kaju Curry", "price": "₹150", "desc": "Cashew curry", "tags": ["Veg"], "img": "img/kaju.jpeg" },
-      { "id": 85, "cat": "Dal & Gravy", "name": "मटर पनीर / Matar Paneer", "price": "₹140", "desc": "Mutter paneer", "tags": ["Veg"], "img": "img/matar-paneer.jpeg" },
-      { "id": 86, "cat": "Dal & Gravy", "name": "ग्रीन पीस मसाला / Green Peas Masala", "price": "₹100", "desc": "Green peas masala", "tags": ["Veg"], "img": "img/peas-masala.jpeg" },
-      { "id": 87, "cat": "Dal & Gravy", "name": "टेस्ट पाटलाव / Test Paṭlāw", "price": "₹140", "desc": "Special dish", "tags": ["Veg"], "img": "img/special.jpeg" },
-      { "id": 88, "cat": "Dal & Gravy", "name": "काजू मसाला / Kaju Masala", "price": "₹140", "desc": "Cashew masala", "tags": ["Veg"], "img": "img/kaju-masala.jpeg" },
-      { "id": 89, "cat": "Rice (Plain/Pulav)", "name": "भात भाजी / Rice Bhaji (Plain Rice)", "price": "₹90", "desc": "Rice with curry", "tags": ["Veg"], "img": "img/rice1.jpeg" },
-      { "id": 90, "cat": "Rice (Plain/Pulav)", "name": "टोमॅटो भात / Tomato Rice", "price": "₹80", "desc": "Tomato rice", "tags": ["Veg"], "img": "img/tomato-rice.jpeg" },
-      { "id": 91, "cat": "Rice (Plain/Pulav)", "name": "जीरा भात / Jeera Rice", "price": "₹70", "desc": "Jeera rice", "tags": ["Veg"], "img": "img/jeera-rice.jpeg" },
-      { "id": 92, "cat": "Vegetable Main Course", "name": "व्हेज कोल्हापुरी / Veg Kolhapuri", "price": "₹120", "desc": "Veg Kolhapuri", "tags": ["Veg"], "img": "img/veg-kolhapuri.jpeg" },
-      { "id": 93, "cat": "Vegetable Main Course", "name": "व्हेज ज्वालामुखी / Veg Jwalamukhi", "price": "₹120", "desc": "Spicy veg curry", "tags": ["Veg"], "img": "img/jwala.jpeg" },
-      { "id": 94, "cat": "Vegetable Main Course", "name": "व्हेज मील / Veg Meal", "price": "₹30", "desc": "Mixed veg", "tags": ["Veg"], "img": "img/veg-meal.jpeg" },
-      { "id": 95, "cat": "Vegetable Main Course", "name": "वरण प्लेट / Varaṇ Plate (Dal)", "price": "₹60", "desc": "Dal plate", "tags": ["Veg"], "img": "img/dal-plate.jpeg" },
-      { "id": 96, "cat": "Vegetable Main Course", "name": "झुणका / Zunka", "price": "₹70", "desc": "Zunka", "tags": ["Veg"], "img": "img/zunka.jpeg" },
-      { "id": 97, "cat": "Vegetable Main Course", "name": "अंडा आमलेट / Egg Omelette", "price": "₹70", "desc": "Egg omelette", "tags": ["Non-Veg"], "img": "img/omelette.jpeg" },
-      { "id": 98, "cat": "Vegetable Main Course", "name": "आलू पालक / Aloo Palak", "price": "₹100", "desc": "Aloo palak", "tags": ["Veg"], "img": "img/aloo-palak.jpeg" },
-      { "id": 99, "cat": "Vegetable Main Course", "name": "दम आलू कश्मीरी / Dum Aloo Kashmiri", "price": "₹110", "desc": "Dum aloo kashmiri", "tags": ["Veg"], "img": "img/dum-aloo.jpeg" },
-      { "id": 100, "cat": "Vegetable Main Course", "name": "भाजी प्लेट / Bhaji Plate", "price": "₹60", "desc": "Veg plate", "tags": ["Veg"], "img": "img/bhaji.jpeg" },
-      { "id": 101, "cat": "Paneer Dishes", "name": "शाही पनीर मसाला / Shahi Paneer Masala", "price": "₹100", "desc": "Shahi masala", "tags": ["Veg"], "img": "img/shahi.jpeg" },
-      { "id": 102, "cat": "Paneer Dishes", "name": "पनीर मसाला / Paneer Masala", "price": "₹120", "desc": "Paneer masala", "tags": ["Veg"], "img": "img/paneer-masala.jpeg" },
-      { "id": 103, "cat": "Paneer Dishes", "name": "पनीर बटर मसाला / Paneer Butter Masala", "price": "₹130", "desc": "Paneer butter masala", "tags": ["Veg"], "img": "img/pbm.jpeg" },
-      { "id": 104, "cat": "Paneer Dishes", "name": "कढाई पनीर / Kadai Paneer", "price": "₹140", "desc": "Kadai paneer", "tags": ["Veg"], "img": "img/kadai.jpeg" },
-      { "id": 105, "cat": "Paneer Dishes", "name": "पनीर पसंदा / Paneer Pasanda", "price": "₹150", "desc": "Paneer pasanda", "tags": ["Veg"], "img": "img/pasanda.jpeg" },
-      { "id": 106, "cat": "Paneer Dishes", "name": "पनीर टिक्का मसाला / Paneer Tikka Masala", "price": "₹140", "desc": "Paneer tikka masala", "tags": ["Veg"], "img": "img/tikka-masala.jpeg" },
-      { "id": 107, "cat": "Paneer Dishes", "name": "पनीर दो प्याजा / Paneer Do Pyaza", "price": "₹150", "desc": "Paneer do pyaza", "tags": ["Veg"], "img": "img/do-pyaza.jpeg" },
-      { "id": 108, "cat": "Paneer Dishes", "name": "पनीर पटियाला / Paneer Patiala", "price": "₹140", "desc": "Paneer patiala", "tags": ["Veg"], "img": "img/patiala.jpeg" },
-      { "id": 109, "cat": "Paneer Dishes", "name": "बटर पनीर मसाला / Butter Paneer Masala", "price": "₹150", "desc": "Butter paneer", "tags": ["Veg"], "img": "img/butter-paneer.jpeg" },
-      { "id": 110, "cat": "Paneer Dishes", "name": "पालक पनीर / Palak Paneer", "price": "₹130", "desc": "Palak paneer", "tags": ["Veg"], "img": "img/palak-paneer.jpeg" },
-      { "id": 111, "cat": "Paneer Dishes", "name": "पनीर चिली / Chilli Paneer", "price": "₹140", "desc": "Chilli paneer", "tags": ["Veg"], "img": "img/chilli-paneer.jpeg" },
-      { "id": 112, "cat": "Paneer Dishes", "name": "पनीर भुर्जी / Paneer Bhurji", "price": "₹150", "desc": "Paneer bhurji", "tags": ["Veg"], "img": "img/bhurji.jpeg" },
-      { "id": 113, "cat": "Special Dishes", "name": "मटण स्पेशल पुलाव / Mutton Special Pulao", "price": "₹250", "desc": "Special mutton pulao", "tags": ["Non-Veg"], "img": "img/mutton-pulao.jpeg" },
-      { "id": 114, "cat": "Special Dishes", "name": "मटण स्पेशल हाफ / Mutton Special Half", "price": "₹125", "desc": "Half special mutton", "tags": ["Non-Veg"], "img": "img/mutton-half.jpeg" },
-      { "id": 115, "cat": "Special Dishes", "name": "मटण स्पेशल फुल / Mutton Special Full", "price": "₹200", "desc": "Full special mutton", "tags": ["Non-Veg"], "img": "img/mutton-full.jpeg" },
-      { "id": 116, "cat": "Special Dishes", "name": "सोयाबीन स्पेशल हाफ / Soya Special Half", "price": "₹100", "desc": "Soya special half", "tags": ["Veg"], "img": "img/soya.jpeg" },
-      { "id": 117, "cat": "Special Dishes", "name": "तीन अंडा / Three Egg Dish", "price": "₹80", "desc": "Three egg preparation", "tags": ["Non-Veg"], "img": "img/egg.jpeg" },
-      { "id": 118, "cat": "Special Dishes", "name": "सात अंडा / Seven Egg Half", "price": "₹40", "desc": "Seven egg half", "tags": ["Non-Veg"], "img": "img/egg.jpeg" },
-      { "id": 119, "cat": "Chinese Rice", "name": "शेझवान राईस हाफ / Schezwan Rice Half", "price": "₹220", "desc": "Schezwan fried rice half", "tags": ["Veg"], "img": "img/schezwan-rice-half.jpeg" },
-      { "id": 120, "cat": "Chinese Rice", "name": "शेझवान राईस फुल / Schezwan Rice Full", "price": "₹400", "desc": "Schezwan fried rice full", "tags": ["Veg"], "img": "img/schezwan-rice-full.jpeg" },
-      { "id": 121, "cat": "Chinese Rice", "name": "पनीर राईस हाफ / Paneer Rice Half", "price": "₹230", "desc": "Paneer rice half", "tags": ["Veg"], "img": "img/paneer-rice-half.jpeg" },
-      { "id": 122, "cat": "Chinese Rice", "name": "पनीर राईस फुल / Paneer Rice Full", "price": "₹450", "desc": "Paneer rice full", "tags": ["Veg"], "img": "img/paneer-rice-full.jpeg" },
-      { "id": 123, "cat": "Chinese Rice", "name": "मिक्स व्हेज राईस हाफ / Mix Veg Rice Half", "price": "₹210", "desc": "Mix veg rice half", "tags": ["Veg"], "img": "img/mix-rice-half.jpeg" },
-      { "id": 124, "cat": "Chinese Rice", "name": "मिक्स व्हेज राईस फुल / Mix Veg Rice Full", "price": "₹410", "desc": "Mix veg rice full", "tags": ["Veg"], "img": "img/mix-rice-full.jpeg" },
-      { "id": 125, "cat": "Chinese Rice", "name": "शेजवान राईस / Schezwan Rice", "price": "₹170", "desc": "Schezwan rice", "tags": ["Veg"], "img": "img/schezwan.jpeg" },
-      { "id": 126, "cat": "Chinese Rice", "name": "साधा राईस / Plain Rice", "price": "₹330", "desc": "Plain rice", "tags": ["Veg"], "img": "img/plain-rice.jpeg" },
-      { "id": 127, "cat": "Chinese Rice", "name": "चिकन राईस हाफ / Chicken Rice Half", "price": "₹270", "desc": "Chicken fried rice half", "tags": ["Non-Veg"], "img": "img/chicken-rice-half.jpeg" },
-      { "id": 128, "cat": "Chinese Rice", "name": "चिकन राईस फुल / Chicken Rice Full", "price": "₹530", "desc": "Chicken fried rice full", "tags": ["Non-Veg"], "img": "img/chicken-rice-full.jpeg" },
-      { "id": 129, "cat": "Chinese Rice", "name": "एग राईस हाफ / Egg Rice Half", "price": "₹190", "desc": "Egg fried rice half", "tags": ["Non-Veg"], "img": "img/egg-rice-half.jpeg" },
-      { "id": 130, "cat": "Chinese Rice", "name": "एग राईस फुल / Egg Rice Full", "price": "₹370", "desc": "Egg fried rice full", "tags": ["Non-Veg"], "img": "img/egg-rice-full.jpeg" },
-      { "id": 131, "cat": "Extras", "name": "अंडा आमलेट / Egg Omelette", "price": "₹90", "desc": "Egg omelette", "tags": ["Non-Veg"], "img": "img/omelette.jpeg" },
-      { "id": 132, "cat": "Extras", "name": "अंडा मसाला / Egg Masala", "price": "₹100", "desc": "Egg masala", "tags": ["Non-Veg"], "img": "img/egg-masala.jpeg" },
-      { "id": 133, "cat": "Curry Main Course", "name": "चिकन मसाला प्लेट / Chicken Masala Plate", "price": "₹140", "desc": "Chicken masala plate", "tags": ["Non-Veg"], "img": "img/chicken-masala.jpeg" },
-      { "id": 134, "cat": "Curry Main Course", "name": "मटन मसाला प्लेट / Mutton Masala Plate", "price": "₹150", "desc": "Mutton masala plate", "tags": ["Non-Veg"], "img": "img/mutton-masala.jpeg" },
-      { "id": 135, "cat": "Curry Main Course", "name": "चिकन कढाई / Chicken Kadai", "price": "₹150", "desc": "Chicken kadai", "tags": ["Non-Veg"], "img": "img/chicken-kadai.jpeg" },
-      { "id": 136, "cat": "Fish Dishes", "name": "फिश फ्राय हाफ / Fish Fry Half", "price": "₹250", "desc": "Fish fry half", "tags": ["Non-Veg"], "img": "img/fish-fry-half.jpeg" },
-      { "id": 137, "cat": "Fish Dishes", "name": "फिश फ्राय फुल / Fish Fry Full", "price": "₹470", "desc": "Fish fry full", "tags": ["Non-Veg"], "img": "img/fish-fry-full.jpeg" },
-      { "id": 138, "cat": "Fish Dishes", "name": "मसाला फिश फ्राय / Masala Fish Fry", "price": "₹350", "desc": "Masala fried fish", "tags": ["Non-Veg"], "img": "img/masala-fish.jpeg" },
-      { "id": 139, "cat": "Fish Dishes", "name": "स्पेशल फिश फ्राय / Special Fish Fry", "price": "₹650", "desc": "Special fish fry", "tags": ["Non-Veg"], "img": "img/special-fish.jpeg" },
-      { "id": 140, "cat": "Mutton Dishes", "name": "मटण मसाला प्लेट / Mutton Masala Plate", "price": "₹140", "desc": "Mutton masala", "tags": ["Non-Veg"], "img": "img/mutton-masala.jpeg" },
-      { "id": 141, "cat": "Mutton Dishes", "name": "मटण फ्राय हाफ / Mutton Fry Half", "price": "₹300", "desc": "Mutton fry half", "tags": ["Non-Veg"], "img": "img/mutton-fry-half.jpeg" },
-      { "id": 142, "cat": "Mutton Dishes", "name": "मटण फ्राय फुल / Mutton Fry Full", "price": "₹560", "desc": "Mutton fry full", "tags": ["Non-Veg"], "img": "img/mutton-fry-full.jpeg" },
-      { "id": 143, "cat": "Rice Plate", "name": "साधा राईस हाफ / Plain Rice Half", "price": "₹30", "desc": "Plain rice half", "tags": ["Veg"], "img": "img/plain-rice-half.jpeg" },
-      { "id": 144, "cat": "Rice Plate", "name": "साधा राईस फुल / Plain Rice Full", "price": "₹70", "desc": "Plain rice full", "tags": ["Veg"], "img": "img/plain-rice-full.jpeg" },
-      { "id": 145, "cat": "Rice Plate", "name": "जीरा राईस हाफ / Jeera Rice Half", "price": "₹40", "desc": "Jeera rice half", "tags": ["Veg"], "img": "img/jeera-half.jpeg" },
-      { "id": 146, "cat": "Rice Plate", "name": "जीरा राईस फुल / Jeera Rice Full", "price": "₹80", "desc": "Jeera rice full", "tags": ["Veg"], "img": "img/jeera-full.jpeg" },
-      { "id": 147, "cat": "Rice Plate", "name": "लेमन राईस / Lemon Rice", "price": "₹100", "desc": "Lemon rice", "tags": ["Veg"], "img": "img/lemon-rice.jpeg" },
-      { "id": 148, "cat": "Rice Plate", "name": "कर्ड राईस / Curd Rice", "price": "₹120", "desc": "Curd rice", "tags": ["Veg"], "img": "img/curd-rice.jpeg" },
-      { "id": 149, "cat": "Rice Plate", "name": "प्लेन खिचडी / Plain Khichdi", "price": "₹120", "desc": "Plain khichdi", "tags": ["Veg"], "img": "img/khichdi.jpeg" },
-      { "id": 150, "cat": "Rice Plate", "name": "पालक खिचडी / Palak Khichdi", "price": "₹200", "desc": "Palak khichdi", "tags": ["Veg"], "img": "img/palak-khichdi.jpeg" },
-      { "id": 151, "cat": "Rice Plate", "name": "स्पेशल राईस / Special Rice", "price": "₹200", "desc": "Special rice", "tags": ["Veg"], "img": "img/special-rice.jpeg" },
-      { "id": 152, "cat": "Rice Plate", "name": "चिकन खिचडी / Chicken Khichdi", "price": "₹200", "desc": "Chicken khichdi", "tags": ["Non-Veg"], "img": "img/chicken-khichdi.jpeg" },
-      { "id": 153, "cat": "Tandoor", "name": "चिकन तंदूर हाफ / Chicken Tandoor Half", "price": "₹130", "desc": "Tandoori chicken half", "tags": ["Non-Veg"], "img": "img/tandoori-half.jpeg" },
-      { "id": 154, "cat": "Tandoor", "name": "चिकन तंदूर फुल / Chicken Tandoor Full", "price": "₹160", "desc": "Tandoori chicken full", "tags": ["Non-Veg"], "img": "img/tandoori-full.jpeg" },
-      { "id": 155, "cat": "Tandoor", "name": "चिकन कबाब / Chicken Kabab", "price": "₹170", "desc": "Chicken kabab", "tags": ["Non-Veg"], "img": "img/kabab.jpeg" },
-      { "id": 156, "cat": "Tandoor", "name": "चिकन मलाई कबाब / Chicken Malai Kabab", "price": "₹180", "desc": "Malai chicken kabab", "tags": ["Non-Veg"], "img": "img/malai-kabab.jpeg" },
-      { "id": 157, "cat": "Tandoor", "name": "चिकन हरीयाली कबाब / Chicken Hariyali Kabab", "price": "₹190", "desc": "Hariyali kabab", "tags": ["Non-Veg"], "img": "img/hariyali.jpeg" },
-      { "id": 158, "cat": "Biryani", "name": "व्हेज बिर्याणी / Veg Biryani", "price": "₹120", "desc": "Veg biryani", "tags": ["Veg"], "img": "img/veg-biryani.jpeg" },
-      { "id": 159, "cat": "Biryani", "name": "चिकन बिर्याणी / Chicken Biryani", "price": "₹120", "desc": "Chicken biryani", "tags": ["Non-Veg"], "img": "img/chicken-biryani.jpeg" },
-      { "id": 160, "cat": "Biryani", "name": "चिकन दम बिर्याणी / Chicken Dum Biryani", "price": "₹150", "desc": "Dum chicken biryani", "tags": ["Non-Veg"], "img": "img/dum-biryani.jpeg" },
-      { "id": 161, "cat": "Biryani", "name": "मटण दम बिर्याणी / Mutton Dum Biryani", "price": "₹180", "desc": "Mutton dum biryani", "tags": ["Non-Veg"], "img": "img/mutton-biryani.jpeg" },
-      { "id": 162, "cat": "Chinese Snacks", "name": "चायनीज रोल / Chinese Roll", "price": "₹150", "desc": "Chinese roll", "tags": ["Veg"], "img": "img/roll.jpeg" },
-      { "id": 163, "cat": "Chinese Snacks", "name": "चायनीज सूप प्लेट / Chinese Soup Plate", "price": "₹250", "desc": "Chinese soup plate", "tags": ["Veg"], "img": "img/soup-plate.jpeg" },
-      { "id": 164, "cat": "Chinese Snacks", "name": "चायनीज मिक्स प्लेट / Chinese Mix Plate", "price": "₹150", "desc": "Chinese mix plate", "tags": ["Veg"], "img": "img/mix-plate.jpeg" },
-      { "id": 165, "cat": "Chinese Snacks", "name": "चायनीज नूडल्स / Chinese Noodles", "price": "₹250", "desc": "Chinese noodles", "tags": ["Veg"], "img": "img/noodles.jpeg" },
-      { "id": 166, "cat": "Chinese Snacks", "name": "चायनीज मन्चूरियन / Chinese Manchurian", "price": "₹150", "desc": "Chinese manchurian", "tags": ["Veg"], "img": "img/manchurian.jpeg" },
-      { "id": 167, "cat": "Chinese Snacks", "name": "चायनीज फ्राइड / Chinese Fried", "price": "₹250", "desc": "Chinese fried", "tags": ["Veg"], "img": "img/chinese-fried.jpeg" },
-      { "id": 168, "cat": "Chinese Snacks", "name": "चायनीज सॉस / Chinese Sauce", "price": "₹60", "desc": "Chinese sauce", "tags": ["Veg"], "img": "img/sauce.jpeg" },
-      { "id": 169, "cat": "Extras", "name": "पाव / Pav (Bread)", "price": "₹5", "desc": "Bread pav", "tags": ["Veg"], "img": "img/pav.jpeg" },
-      { "id": 170, "cat": "Mutton Dishes", "name": "मटन कोल्हापुरी / Mutton Kolhapuri", "price": "₹900", "desc": "Spicy Kolhapuri mutton", "tags": ["Non-Veg"], "img": "img/mutton-kolhapuri.jpeg" },
-      { "id": 171, "cat": "Mutton Dishes", "name": "कपाली फ्राय / Kapali Fry", "price": "₹750", "desc": "Special mutton fry", "tags": ["Non-Veg"], "img": "img/kavali.jpeg" },
-];
+  { "id": 1, "cat": "कोल्ड ड्रिंक्स / Cold Drinks", "name": "मिनरल वाटर / Mineral Water", "price": "₹20", "desc": "Bottled mineral water", "tags": ["Drinks"], "img": "img/default.jpeg" },
+  { "id": 2, "cat": "कोल्ड ड्रिंक्स / Cold Drinks", "name": "सोडा / Soda", "price": "₹20", "desc": "Plain soda water", "tags": ["Drinks"], "img": "img/default.jpeg" },
+  { "id": 3, "cat": "कोल्ड ड्रिंक्स / Cold Drinks", "name": "सोडा .मोटा / Soda .Mota", "price": "₹40", "desc": "Large soda water", "tags": ["Drinks"], "img": "img/default.jpeg" },
+  { "id": 4, "cat": "कोल्ड ड्रिंक्स / Cold Drinks", "name": "कोल्डड्रिंक 250 / Colddrink 250ml", "price": "₹25", "desc": "Colddrink 250ml bottle/can", "tags": ["Drinks"], "img": "img/default.jpeg" },
+  { "id": 5, "cat": "कोल्ड ड्रिंक्स / Cold Drinks", "name": "कोल्डड्रिंक 750 / Colddrink 750ml", "price": "₹50", "desc": "Colddrink 750ml bottle", "tags": ["Drinks"], "img": "img/default.jpeg" },
+  { "id": 6, "cat": "सिगरेट / Cigarettes", "name": "गोल्ड छोटी / Gold Chhoti", "price": "₹15", "desc": "Gold Flake Chhoti (Small)", "tags": ["Smokes"], "img": "img/default.jpeg" },
+  { "id": 7, "cat": "सिगरेट / Cigarettes", "name": "गोल्ड बटन / Gold Button", "price": "₹15", "desc": "Gold Flake Button", "tags": ["Smokes"], "img": "img/default.jpeg" },
+  { "id": 8, "cat": "सिगरेट / Cigarettes", "name": "लाइट / Light", "price": "₹20", "desc": "Cigarette - Light", "tags": ["Smokes"], "img": "img/default.jpeg" },
+  { "id": 9, "cat": "सिगरेट / Cigarettes", "name": "गरम / Garam", "price": "₹20", "desc": "Cigarette - Garam", "tags": ["Smokes"], "img": "img/default.jpeg" },
+  { "id": 10, "cat": "सिगरेट / Cigarettes", "name": "क्लासिक / Classic", "price": "₹20", "desc": "Classic Cigarettes", "tags": ["Smokes"], "img": "img/default.jpeg" },
+  { "id": 11, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "मसाला पापड़ / Masala Papad", "price": "₹25", "desc": "Crispy fried papad topped with spices and veggies", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 12, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "फ्राय पापड़ / Fry Papad", "price": "₹20", "desc": "Plain fried papad", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 13, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "रोस्ट पापड़ / Roast Papad", "price": "₹20", "desc": "Plain roasted papad", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 14, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "नांग्ली पापड़ / Nagli Papad", "price": "₹25", "desc": "Nagli (Ragi) papad", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 15, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "शेंगदाना/फुटाना प्लेट / Shengdana/Futana Plate", "price": "₹20", "desc": "Plate of roasted peanuts or chickpeas", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 16, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "स्नैक्स 10 / Snacks 10", "price": "₹10", "desc": "A type of small snack", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 17, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "चना रोस्ट / Chana Roast", "price": "₹80", "desc": "Roasted chickpeas preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 18, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "सोया कटकी / Soya Katki", "price": "₹90", "desc": "Soya bean snack/starter", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 19, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "सोया फ्राय / Soya Fry", "price": "₹80", "desc": "Fried soya chunks/pieces", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 20, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "ओनिओन पकोडा / Onion Pakoda", "price": "₹50", "desc": "Deep-fried onion fritters", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 21, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "मटकी फ्राय / Matki Fry", "price": "₹80", "desc": "Fried Matki (Moth beans) preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 22, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "चना फ्राय / Chana Fry", "price": "₹80", "desc": "Spicy fried chickpeas starter", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 23, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "शेवगा फ्राय / Shevga Fry", "price": "₹90", "desc": "Fried Drumstick (Shevga) preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 24, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "सोया चिल्ली / Soya Chilli", "price": "₹100", "desc": "Spicy Chilli Soya preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 25, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "पनीर चिल्ली / Paneer Chilli", "price": "₹120", "desc": "Spicy Chilli Paneer (Indian cottage cheese)", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 26, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "गिणपोस फ्राय / Ginpos Fry", "price": "₹80", "desc": "Ginpos (a vegetable/item) fry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 27, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "पनीर 65 / Paneer 65", "price": "₹140", "desc": "Spicy deep-fried paneer dish", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 28, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "व्हेज क्रिस्पी / Veg Crispy", "price": "₹140", "desc": "Fried mixed vegetables with a crispy texture", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 29, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "व्हेज मंचुरियन / Veg Manchurian", "price": "₹130", "desc": "Veg Manchurian balls (dry or gravy)", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 30, "cat": "व्हेज स्टार्टर / Veg Starter", "name": "व्हेज मंचुरियन चिल्ली / Veg Manchurian Chilli", "price": "₹140", "desc": "Spicy Veg Manchurian Chilli preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 31, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन फ्राय / Chicken Fry", "price": "₹120", "desc": "Fried chicken pieces", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 32, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन कटकी प्लेट / Chicken Katki Plate", "price": "₹120", "desc": "Chicken Katki Starter Plate", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 33, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन कटकी हाफ / Chicken Katki Half", "price": "₹200", "desc": "Half plate of Chicken Katki Starter", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 34, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन कटकी फुल / Chicken Katki Full", "price": "₹380", "desc": "Full plate of Chicken Katki Starter", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 35, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन तंदुरी हाफ / Chicken Tandoori Half", "price": "₹250", "desc": "Half portion of Tandoori Chicken", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 36, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन तंदुरी फुल / Chicken Tandoori Full", "price": "₹500", "desc": "Full portion of Tandoori Chicken", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 37, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन टिक्का / Chicken Tikka", "price": "₹200", "desc": "Marinated and grilled chicken pieces", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 38, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन चिल्ली / Chicken Chilli", "price": "₹140", "desc": "Spicy Chilli Chicken preparation", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 39, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "चिकन मंचुरियन / Chicken Manchurian", "price": "₹150", "desc": "Chicken Manchurian balls (dry or gravy)", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 40, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "मटन फ्राय / Mutton Fry", "price": "₹150", "desc": "Fried mutton preparation", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 41, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "अंडा बॉईल प्लेट / Egg Boil Plate", "price": "₹20", "desc": "Plate of boiled eggs", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 42, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "अंडा बॉईल फ्राय / Egg Boil Fry", "price": "₹40", "desc": "Fried boiled eggs", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 43, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "अंडा ओमलेट / Egg Omelette", "price": "₹40", "desc": "Fluffy egg omelette", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 44, "cat": "नॉनव्हेज स्टार्टर / Non-Veg Starter", "name": "अंडा भुर्जी / Egg Bhurji", "price": "₹50", "desc": "Scrambled eggs with spices and vegetables", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+
+    
+  { "id": 45, "cat": "मछली स्टार्टर / Fish Starter", "name": "मछली रोस्ट / Machhli Roast", "price": "₹150", "desc": "Roasted Fish preparation", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 46, "cat": "मछली स्टार्टर / Fish Starter", "name": "मछली मसाला फ्राय / Machhli Masala Fry", "price": "₹150", "desc": "Spicy Masala Fried Fish", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 47, "cat": "मछली स्टार्टर / Fish Starter", "name": "मछली तवा फ्राय / Machhli Tawa Fry", "price": "₹160", "desc": "Tawa fried Fish preparation", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 48, "cat": "सूप / Soup", "name": "मटन सूप / Mutton Soup", "price": "₹70", "desc": "Clear Mutton broth", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 49, "cat": "सूप / Soup", "name": "चिकन सूप / Chicken Soup", "price": "₹50", "desc": "Clear Chicken broth", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 50, "cat": "सूप / Soup", "name": "टोमाटो सूप / Tomato Soup", "price": "₹40", "desc": "Creamy Tomato Soup", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 51, "cat": "सूप / Soup", "name": "व्हेज मंचाव सूप / Veg Manchow Soup", "price": "₹80", "desc": "Spicy mixed vegetable Manchow Soup", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 52, "cat": "सूप / Soup", "name": "व्हेज हॉट & सोर सूप / Veg Hot & Sour Soup", "price": "₹90", "desc": "Hot and sour mixed vegetable soup", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 53, "cat": "सूप / Soup", "name": "व्हेज क्लिअर सूप / Veg Clear Soup", "price": "₹70", "desc": "Light clear vegetable soup", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 54, "cat": "सूप / Soup", "name": "चिकन क्लिअर सूप / Chicken Clear Soup", "price": "₹90", "desc": "Light clear chicken soup", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 55, "cat": "रोटी / नान / Roti / Naan", "name": "तंदूर रोटी / Tandoor Roti", "price": "₹10", "desc": "Plain Roti baked in Tandoor", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 56, "cat": "रोटी / नान / Roti / Naan", "name": "बटर रोटी / Butter Roti", "price": "₹15", "desc": "Butter Roti baked in Tandoor", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 57, "cat": "रोटी / नान / Roti / Naan", "name": "बटर पराठा / Butter Paratha", "price": "₹20", "desc": "Layered flatbread with butter", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 58, "cat": "रोटी / नान / Roti / Naan", "name": "आलू पराठा / Aloo Paratha", "price": "₹30", "desc": "Flatbread stuffed with spiced potato filling", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 59, "cat": "रोटी / नान / Roti / Naan", "name": "बटर नान / Butter Naan", "price": "₹30", "desc": "Soft Naan bread topped with butter", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 60, "cat": "रोटी / नान / Roti / Naan", "name": "बाजरा भाकर / Bajri Bhakar", "price": "₹15", "desc": "Flatbread made from pearl millet flour", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 61, "cat": "रोटी / नान / Roti / Naan", "name": "ज्वारी भाकर / Jwari Bhakar", "price": "₹15", "desc": "Flatbread made from sorghum flour", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 62, "cat": "रोटी / नान / Roti / Naan", "name": "गार्लिक नान / Garlic Naan", "price": "₹30", "desc": "Naan bread flavored with garlic", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 63, "cat": "रोटी / नान / Roti / Naan", "name": "लच्छा पराठा / Laccha Paratha", "price": "₹30", "desc": "Multi-layered flaky flatbread", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 64, "cat": "रोटी / नान / Roti / Naan", "name": "पनीर पराठा / Paneer Paratha", "price": "₹60", "desc": "Flatbread stuffed with spiced paneer filling", "tags": ["Bread", "Veg"], "img": "img/default.jpeg" },
+  { "id": 65, "cat": "व्हेज डिशेस / Veg Dishes", "name": "दाल फ्राय / Dal Fry", "price": "₹90", "desc": "Lentil curry tempered with spices", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 66, "cat": "व्हेज डिशेस / Veg Dishes", "name": "दाल तड़का / Dal Tadka", "price": "₹90", "desc": "Lentil curry with a sizzling tempering of ghee and spices", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 67, "cat": "व्हेज डिशेस / Veg Dishes", "name": "बैंगन मसाला / Baingan Masala", "price": "₹100", "desc": "Curry made with roasted or fried eggplant in a spicy gravy", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 68, "cat": "व्हेज डिशेस / Veg Dishes", "name": "दाल मेथी / Dal Methi", "price": "₹80", "desc": "Lentil curry cooked with fresh fenugreek leaves", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 69, "cat": "व्हेज डिशेस / Veg Dishes", "name": "प्लन पालक / Plain Palak", "price": "₹70", "desc": "Simple spinach preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 70, "cat": "व्हेज डिशेस / Veg Dishes", "name": "शाही पालक / Shahi Palak", "price": "₹90", "desc": "Rich creamy spinach preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 71, "cat": "व्हेज डिशेस / Veg Dishes", "name": "मेथी मसाला / Methi Masala", "price": "₹80", "desc": "Spicy fenugreek leaf preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 72, "cat": "व्हेज डिशेस / Veg Dishes", "name": "लासुनी मेथी / Lasuni Methi", "price": "₹90", "desc": "Fenugreek leaf preparation flavored with garlic", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 73, "cat": "व्हेज डिशेस / Veg Dishes", "name": "बैंगन भरता / Baingan Bharta", "price": "₹90", "desc": "Smoky mashed eggplant dish", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 74, "cat": "व्हेज डिशेस / Veg Dishes", "name": "मटकी मसाला / Matki Masala", "price": "₹90", "desc": "Spicy Matki (Moth beans) curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 75, "cat": "व्हेज डिशेस / Veg Dishes", "name": "चना मसाला / Chana Masala", "price": "₹90", "desc": "Spicy chickpea curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 76, "cat": "व्हेज डिशेस / Veg Dishes", "name": "सोया मसाला / Soya Masala", "price": "₹90", "desc": "Spicy soya chunks/granules curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 77, "cat": "व्हेज डिशेस / Veg Dishes", "name": "सिमला मसाला / Shimla Masala", "price": "₹80", "desc": "Spicy capsicum/bell pepper preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 78, "cat": "व्हेज डिशेस / Veg Dishes", "name": "मेथी फ्राय / Methi Fry", "price": "₹90", "desc": "Fried fresh fenugreek leaves preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 79, "cat": "व्हेज डिशेस / Veg Dishes", "name": "काजू करी / Kaju Curry", "price": "₹140", "desc": "Rich creamy curry with cashew nuts", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 80, "cat": "व्हेज डिशेस / Veg Dishes", "name": "आलू मटर / Aloo Matar", "price": "₹90", "desc": "Curry made with potatoes and peas", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 81, "cat": "व्हेज डिशेस / Veg Dishes", "name": "मिक्स व्हेज / Mix Veg", "price": "₹110", "desc": "Curry made with mixed vegetables", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 82, "cat": "व्हेज डिशेस / Veg Dishes", "name": "व्हेज मराठा / Veg Maratha", "price": "₹120", "desc": "Spicy and rich Maratha-style mixed vegetable dish", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 83, "cat": "व्हेज डिशेस / Veg Dishes", "name": "व्हेज मुग लाई छोटी / Veg Mug Lai Chhoti", "price": "₹140", "desc": "Small portion of Veg Mug Lai dish", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 84, "cat": "व्हेज डिशेस / Veg Dishes", "name": "व्हेज हैदराबादी / Veg Hyderabadi", "price": "₹150", "desc": "Hyderabadi style mixed vegetable dish", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 85, "cat": "व्हेज डिशेस / Veg Dishes", "name": "ग्रीन पीस मसाला / Green Peas Masala", "price": "₹100", "desc": "Spicy curry made with green peas", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 86, "cat": "व्हेज डिशेस / Veg Dishes", "name": "व्हेज पटियाला / Veg Patiala", "price": "₹140", "desc": "Patiala style mixed vegetable dish", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 87, "cat": "व्हेज डिशेस / Veg Dishes", "name": "काजू मसाला / Kaju Masala", "price": "₹140", "desc": "Spicy cashew nut curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 88, "cat": "व्हेज डिशेस / Veg Dishes", "name": "काजू मसाला / Kaju Masala", "price": "₹140", "desc": "Spicy cashew nut curry (Duplicate entry on menu)", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 89, "cat": "व्हेज डिशेस / Veg Dishes", "name": "शेव भाजी / Shev Bhaji", "price": "₹90", "desc": "Curry made with gram flour noodles (sev)", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 90, "cat": "व्हेज डिशेस / Veg Dishes", "name": "शेव टोमाटो / Shev Tomato", "price": "₹90", "desc": "Curry made with gram flour noodles and tomato gravy", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 91, "cat": "व्हेज डिशेस / Veg Dishes", "name": "जीरा आलू / Jeera Aloo", "price": "₹80", "desc": "Potatoes tempered with cumin seeds", "tags": ["Veg"], "img": "img/default.jpeg" },
+
+  
+  { "id": 92, "cat": "व्हेज डिशेस / Veg Dishes", "name": "व्हेज कोल्हापुरी / Veg Kolhapuri", "price": "₹120", "desc": "Spicy Kolhapuri style mixed vegetable curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 93, "cat": "व्हेज डिशेस / Veg Dishes", "name": "व्हेज चटपट / Veg Chatpat", "price": "₹120", "desc": "Quick and tangy mixed vegetable dish", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 94, "cat": "व्हेज डिशेस / Veg Dishes", "name": "चना पिठले / Chana Pithale", "price": "₹30", "desc": "Gram flour based gravy with chickpeas", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 95, "cat": "व्हेज डिशेस / Veg Dishes", "name": "झणका / Zunka", "price": "₹60", "desc": "Traditional dry side dish made from gram flour", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 96, "cat": "व्हेज डिशेस / Veg Dishes", "name": "ठिक्का / Thikka", "price": "₹70", "desc": "Spicy preparation (General term)", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 97, "cat": "व्हेज डिशेस / Veg Dishes", "name": "आलू गोबी / Aloo Gobi", "price": "₹70", "desc": "Potatoes and cauliflower curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 98, "cat": "व्हेज डिशेस / Veg Dishes", "name": "दम आलू पंजाबी / Dum Aloo Punjabi", "price": "₹100", "desc": "Punjabi style slow-cooked baby potatoes curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 99, "cat": "व्हेज डिशेस / Veg Dishes", "name": "दम आलू काश्मिरी / Dum Aloo Kashmiri", "price": "₹110", "desc": "Kashmiri style slow-cooked baby potatoes curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 100, "cat": "व्हेज डिशेस / Veg Dishes", "name": "मेथी प्लेट / Methi Plate", "price": "₹60", "desc": "Plate of Methi (Fenugreek) preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  
+  { "id": 101, "cat": "पनीर डिशेस / Paneer Dishes", "name": "शेवगा मसाला / Shevga Masala", "price": "₹100", "desc": "Spicy Drumstick (Shevga) preparation (Mislabeled as Paneer Dish)", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 102, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर मसाला / Paneer Masala", "price": "₹120", "desc": "Spicy Indian cottage cheese curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 103, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर बटर मसाला / Paneer Butter Masala", "price": "₹130", "desc": "Creamy tomato gravy with paneer and butter", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 104, "cat": "पनीर डिशेस / Paneer Dishes", "name": "शाही पनीर / Shahi Paneer", "price": "₹140", "desc": "Rich creamy paneer curry with nuts", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 105, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर पसंदा / Paneer Pasanda", "price": "₹150", "desc": "Rich stuffed paneer pieces in a creamy gravy", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 106, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर टिक्का मसाला / Paneer Tikka Masala", "price": "₹140", "desc": "Grilled paneer tikka pieces in a spiced gravy", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 107, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर दो प्याजा / Paneer Do Pyaza", "price": "₹150", "desc": "Paneer cooked with onions in a spiced gravy", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 108, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर पटियाला / Paneer Patiala", "price": "₹140", "desc": "Patiala style paneer curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 109, "cat": "पनीर डिशेस / Paneer Dishes", "name": "काजू पनीर मसाला / Kaju Paneer Masala", "price": "₹150", "desc": "Paneer and cashew nut curry", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 110, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पालक पनीर / Palak Paneer", "price": "₹130", "desc": "Paneer cooked in a thick spinach puree", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 111, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर भुर्जी / Paneer Bhurji", "price": "₹140", "desc": "Scrambled paneer with spices and vegetables", "tags": ["Veg"], "img": "img/default.jpeg" },
+  { "id": 112, "cat": "पनीर डिशेस / Paneer Dishes", "name": "पनीर कच्ची / Paneer Kacchi", "price": "₹150", "desc": "Raw/fresh paneer preparation", "tags": ["Veg"], "img": "img/default.jpeg" },
+  
+  { "id": 113, "cat": "स्पेशल / Special", "name": "माऊळी स्पेशल फुल / Mauli Special Full", "price": "₹250", "desc": "Full portion of Mauli Special dish", "tags": ["Special"], "img": "img/default.jpeg" },
+  { "id": 114, "cat": "स्पेशल / Special", "name": "माऊळी स्पेशल हाफ / Mauli Special Half", "price": "₹125", "desc": "Half portion of Mauli Special dish", "tags": ["Special"], "img": "img/default.jpeg" },
+  { "id": 115, "cat": "स्पेशल / Special", "name": "सविता स्पेशल फुल / Savita Special Full", "price": "₹200", "desc": "Full portion of Savita Special dish", "tags": ["Special"], "img": "img/default.jpeg" },
+  { "id": 116, "cat": "स्पेशल / Special", "name": "सविता स्पेशल हाफ / Savita Special Half", "price": "₹100", "desc": "Half portion of Savita Special dish", "tags": ["Special"], "img": "img/default.jpeg" },
+  { "id": 117, "cat": "स्पेशल / Special", "name": "7 अप 750 / 7 Up 750ml", "price": "₹80", "desc": "7 Up 750ml bottle", "tags": ["Drinks", "Special"], "img": "img/default.jpeg" },
+  { "id": 118, "cat": "स्पेशल / Special", "name": "7 अप 250 / 7 Up 250ml", "price": "₹40", "desc": "7 Up 250ml bottle/can", "tags": ["Drinks", "Special"], "img": "img/default.jpeg" },
+  
+  { "id": 119, "cat": "हंडी स्पेशल / Handi Special", "name": "शेवगा हंडी हाफ / Shevga Handi Half", "price": "₹220", "desc": "Half Handi of Shevga (Drumstick) preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 120, "cat": "हंडी स्पेशल / Handi Special", "name": "शेवगा हंडी फुल / Shevga Handi Full", "price": "₹400", "desc": "Full Handi of Shevga (Drumstick) preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 121, "cat": "हंडी स्पेशल / Handi Special", "name": "पनीर हंडी हाफ / Paneer Handi Half", "price": "₹230", "desc": "Half Handi of Paneer (Cottage Cheese) preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 122, "cat": "हंडी स्पेशल / Handi Special", "name": "पनीर हंडी फुल / Paneer Handi Full", "price": "₹450", "desc": "Full Handi of Paneer (Cottage Cheese) preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 123, "cat": "हंडी स्पेशल / Handi Special", "name": "मिक्सव्हेज हंडी हाफ / Mix Veg Handi Half", "price": "₹210", "desc": "Half Handi of Mixed Vegetable preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 124, "cat": "हंडी स्पेशल / Handi Special", "name": "मिक्सव्हेज हंडी फुल / Mix Veg Handi Full", "price": "₹410", "desc": "Full Handi of Mixed Vegetable preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 125, "cat": "हंडी स्पेशल / Handi Special", "name": "शेवभाजी हंडी हाफ / Shev Bhaji Handi Half", "price": "₹170", "desc": "Half Handi of Shev Bhaji preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 126, "cat": "हंडी स्पेशल / Handi Special", "name": "शेवभाजी हंडी फुल / Shev Bhaji Handi Full", "price": "₹330", "desc": "Full Handi of Shev Bhaji preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 127, "cat": "हंडी स्पेशल / Handi Special", "name": "काजूकरी हंडी हाफ / Kaju Curry Handi Half", "price": "₹270", "desc": "Half Handi of Kaju (Cashew) Curry", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 128, "cat": "हंडी स्पेशल / Handi Special", "name": "काजूकरी हंडी फुल / Kaju Curry Handi Full", "price": "₹530", "desc": "Full Handi of Kaju (Cashew) Curry", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 129, "cat": "हंडी स्पेशल / Handi Special", "name": "बैंगन हंडी हाफ / Baingan Handi Half", "price": "₹190", "desc": "Half Handi of Baingan (Eggplant) preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 130, "cat": "हंडी स्पेशल / Handi Special", "name": "बैंगन हंडी फुल / Baingan Handi Full", "price": "₹370", "desc": "Full Handi of Baingan (Eggplant) preparation", "tags": ["Veg", "Handi"], "img": "img/default.jpeg" },
+  
+  { "id": 131, "cat": "अंडा स्पेशल / Egg Special", "name": "अंडा करी / Anda Curry", "price": "₹90", "desc": "Egg curry with a rich gravy", "tags": ["Non-Veg", "Egg"], "img": "img/default.jpeg" },
+  { "id": 132, "cat": "अंडा स्पेशल / Egg Special", "name": "अंडा मसाला / Anda Masala", "price": "₹100", "desc": "Spicy egg masala preparation", "tags": ["Non-Veg", "Egg"], "img": "img/default.jpeg" },
+
+      
+  { "id": 133, "cat": "चिकन/मटन डिशेस / Chicken/Mutton Dishes", "name": "चिकन मसाला प्लेट / Chicken Masala Plate", "price": "₹140", "desc": "Plate portion of Chicken Masala Curry", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 134, "cat": "चिकन/मटन डिशेस / Chicken/Mutton Dishes", "name": "मटन मसाला प्लेट / Mutton Masala Plate", "price": "₹150", "desc": "Plate portion of Mutton Masala Curry", "tags": ["Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 135, "cat": "चिकन/मटन डिशेस / Chicken/Mutton Dishes", "name": "चिकन कढ़ाई / Chicken Kadai", "price": "₹150", "desc": "Chicken curry cooked in a Kadai (wok)", "tags": ["Non-Veg"], "img": "img/default.jpeg" },    
+
+    
+  
+  { "id": 136, "cat": "चिकन / मटन हंडी / Chicken/Mutton Handi", "name": "चिकन हंडी हाफ / Chicken Handi Half", "price": "₹250", "desc": "Half Handi of Chicken preparation", "tags": ["Non-Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 137, "cat": "चिकन / मटन हंडी / Chicken/Mutton Handi", "name": "चिकन हंडी फुल / Chicken Handi Full", "price": "₹470", "desc": "Full Handi of Chicken preparation", "tags": ["Non-Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 138, "cat": "चिकन / मटन हंडी / Chicken/Mutton Handi", "name": "मटन हंडी हाफ / Mutton Handi Half", "price": "₹350", "desc": "Half Handi of Mutton preparation", "tags": ["Non-Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 139, "cat": "चिकन / मटन हंडी / Chicken/Mutton Handi", "name": "मटन हंडी फुल / Mutton Handi Full", "price": "₹650", "desc": "Full Handi of Mutton preparation", "tags": ["Non-Veg", "Handi"], "img": "img/default.jpeg" },
+  
+  { "id": 140, "cat": "मच्छी स्पेशल / Fish Special", "name": "मच्छी मसाला राईस / Machhli Masala Rice", "price": "₹140", "desc": "Spicy fish rice preparation", "tags": ["Non-Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 141, "cat": "मच्छी स्पेशल / Fish Special", "name": "मच्छी हंडी हाफ / Machhli Handi Half", "price": "₹300", "desc": "Half Handi of Fish preparation", "tags": ["Non-Veg", "Handi"], "img": "img/default.jpeg" },
+  { "id": 142, "cat": "मच्छी स्पेशल / Fish Special", "name": "मच्छी हंडी फुल / Machhli Handi Full", "price": "₹560", "desc": "Full Handi of Fish preparation", "tags": ["Non-Veg", "Handi"], "img": "img/default.jpeg" },
+  
+  { "id": 143, "cat": "राईस / पुलाव / Rice / Pulav", "name": "सादा राईस हाफ / Sada Rice Half", "price": "₹30", "desc": "Half plate of plain steamed rice", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 144, "cat": "राईस / पुलाव / Rice / Pulav", "name": "सादा राईस फुल / Sada Rice Full", "price": "₹70", "desc": "Full plate of plain steamed rice", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 145, "cat": "राईस / पुलाव / Rice / Pulav", "name": "जीरा राईस हाफ / Jeera Rice Half", "price": "₹40", "desc": "Half plate of rice tempered with cumin seeds", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 146, "cat": "राईस / पुलाव / Rice / Pulav", "name": "जीरा राईस फुल / Jeera Rice Full", "price": "₹80", "desc": "Full plate of rice tempered with cumin seeds", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 147, "cat": "राईस / पुलाव / Rice / Pulav", "name": "व्हेज पुलाव / Veg Pulav", "price": "₹100", "desc": "Vegetable and rice dish", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 148, "cat": "राईस / पुलाव / Rice / Pulav", "name": "व्हेज बिर्याणी / Veg Biryani", "price": "₹120", "desc": "Layered vegetable and rice dish", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 149, "cat": "राईस / पुलाव / Rice / Pulav", "name": "दाल खिचड़ी / Dal Khichdi", "price": "₹120", "desc": "Rice and lentil preparation", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 150, "cat": "राईस / पुलाव / Rice / Pulav", "name": "मोती पुलाव / Moti Pulav", "price": "₹200", "desc": "Special fancy rice preparation (Moti Pulav)", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 151, "cat": "राईस / पुलाव / Rice / Pulav", "name": "मसाला राईस / Masala Rice", "price": "₹100", "desc": "Spicy seasoned rice preparation", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 152, "cat": "राईस / पुलाव / Rice / Pulav", "name": "व्हेज काश्मिरी पुलाव / Veg Kashmiri Pulav", "price": "₹200", "desc": "Sweet and savory Kashmiri style vegetable pulav", "tags": ["Veg", "Rice"], "img": "img/default.jpeg" },
+  
+  { "id": 153, "cat": "चायनीज राईस / Chinese Rice", "name": "व्हेज फ्राय राईस / Veg Fry Rice", "price": "₹130", "desc": "Fried rice with mixed vegetables", "tags": ["Veg", "Chinese", "Rice"], "img": "img/default.jpeg" },
+  { "id": 154, "cat": "चायनीज राईस / Chinese Rice", "name": "व्हेज सेजवान राईस / Veg Sezwan Rice", "price": "₹130", "desc": "Spicy Szechuan style vegetable fried rice", "tags": ["Veg", "Chinese", "Rice"], "img": "img/default.jpeg" },
+  { "id": 155, "cat": "चायनीज राईस / Chinese Rice", "name": "चिकन फ्राय राईस / Chicken Fry Rice", "price": "₹170", "desc": "Fried rice with chicken pieces", "tags": ["Non-Veg", "Chinese", "Rice"], "img": "img/default.jpeg" },
+  { "id": 156, "cat": "चायनीज राईस / Chinese Rice", "name": "चिकन सेजवान राईस / Chicken Sezwan Rice", "price": "₹180", "desc": "Spicy Szechuan style chicken fried rice", "tags": ["Non-Veg", "Chinese", "Rice"], "img": "img/default.jpeg" },
+  { "id": 157, "cat": "चायनीज राईस / Chinese Rice", "name": "चिकन टॉपल फ्राय राईस / Chicken Topal Fry Rice", "price": "₹190", "desc": "Special chicken fry rice preparation", "tags": ["Non-Veg", "Chinese", "Rice"], "img": "img/default.jpeg" },
+  
+  { "id": 158, "cat": "बिर्याणी / Biryani", "name": "अंडा बिर्याणी / Anda Biryani", "price": "₹120", "desc": "Layered egg and rice dish", "tags": ["Non-Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 159, "cat": "बिर्याणी / Biryani", "name": "अंडा फ्राय राईस / Anda Fry Rice", "price": "₹120", "desc": "Fried rice with egg pieces", "tags": ["Non-Veg", "Chinese", "Rice"], "img": "img/default.jpeg" },
+  { "id": 160, "cat": "बिर्याणी / Biryani", "name": "चिकन दम बिर्याणी / Chicken Dum Biryani", "price": "₹150", "desc": "Layered chicken and rice dish (Dum style)", "tags": ["Non-Veg", "Rice"], "img": "img/default.jpeg" },
+  { "id": 161, "cat": "बिर्याणी / Biryani", "name": "मटन दम बिर्याणी / Mutton Dum Biryani", "price": "₹180", "desc": "Layered mutton and rice dish (Dum style)", "tags": ["Non-Veg", "Rice"], "img": "img/default.jpeg" },
+  
+  { "id": 162, "cat": "चार्जेस् / Charges", "name": "चार्ज चिकन 500 ग्रॅ / Charge Chicken 500g", "price": "₹150", "desc": "Charge for 500g of Chicken", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 163, "cat": "चार्जेस् / Charges", "name": "चार्ज चिकन 1 की / Charge Chicken 1 Kg", "price": "₹250", "desc": "Charge for 1 Kg of Chicken", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 164, "cat": "चार्जेस् / Charges", "name": "चार्ज मटन 500 ग्रॅ / Charge Mutton 500g", "price": "₹150", "desc": "Charge for 500g of Mutton", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 165, "cat": "चार्जेस् / Charges", "name": "चार्ज मटन 1 की / Charge Mutton 1 Kg", "price": "₹250", "desc": "Charge for 1 Kg of Mutton", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 166, "cat": "चार्जेस् / Charges", "name": "चार्ज फिश 500 ग्रॅ / Charge Fish 500g", "price": "₹150", "desc": "Charge for 500g of Fish", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 167, "cat": "चार्जेस् / Charges", "name": "चार्ज फिश 1 की / Charge Fish 1 Kg", "price": "₹250", "desc": "Charge for 1 Kg of Fish", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 168, "cat": "चार्जेस् / Charges", "name": "चार्ज 1 ट्यस्टी / Charge 1 Tasty", "price": "₹60", "desc": "Charge for 1 Tasty dish preparation", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 169, "cat": "चार्जेस् / Charges", "name": "पार्सल चार्जेस् / Parcel Charges", "price": "₹5", "desc": "Charge for parcel/takeaway packaging", "tags": ["Charges"], "img": "img/default.jpeg" },
+  { "id": 170, "cat": "चार्जेस् / Charges", "name": "गावरान कोंबडा / Gavran Kombda", "price": "₹900", "desc": "Charge/Price for whole Country Chicken (Gavran Kombda)", "tags": ["Charges", "Non-Veg"], "img": "img/default.jpeg" },
+  { "id": 171, "cat": "चार्जेस् / Charges", "name": "कॉस कोंबडा / Coss Kombda", "price": "₹750", "desc": "Charge/Price for whole Coss Chicken (Coss Kombda)", "tags": ["Charges", "Non-Veg"], "img": "img/default.jpeg" },  
+    ];
     // Cart functionality
     let cart = [];
     let deliveryType = 'restaurant'; // Default to restaurant
@@ -1828,4 +1840,5 @@
 </body>
 
 </html>
+
 
